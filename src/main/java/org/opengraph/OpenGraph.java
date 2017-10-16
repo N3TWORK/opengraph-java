@@ -87,6 +87,8 @@ public class OpenGraph
             headContents.append(inputLine + "\r\n");
         }
 
+        dis.close();
+
         String headContentsStr = headContents.toString();
         HtmlCleaner cleaner = new HtmlCleaner();
         // parse the string HTML
