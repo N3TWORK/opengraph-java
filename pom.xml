@@ -7,6 +7,17 @@
 	<name>A Facebook OpenGraph implementation for Java</name>
 	<description>OpenGraph for Java</description>
 
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshot.maven.n3twork.com</id>
+			<url>https://nexus.n3twork.com/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>release.maven.n3twork.com</id>
+			<url>https://nexus.n3twork.com/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.hamcrest</groupId>
